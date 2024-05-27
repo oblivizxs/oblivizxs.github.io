@@ -1,35 +1,40 @@
-/* CSS/style.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #444;
     color: white;
     text-align: center;
     padding: 1em 0;
 }
 
-h1, h2 {
-    color: #333;
+.banner {
+    width: 100%;
+    height: auto;
 }
 
-ul {
+.element-list {
     list-style-type: square;
+    padding-left: 20px;
 }
 
-ul a {
+.element-list li {
+    margin: 10px 0;
+}
+
+a {
+    color: #0066cc;
     text-decoration: none;
-    color: #4CAF50;
 }
 
-ul a:hover {
+a:hover {
     text-decoration: underline;
 }
-
 
 
 
